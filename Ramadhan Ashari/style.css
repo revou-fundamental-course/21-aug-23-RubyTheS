@@ -1,0 +1,27 @@
+h1 {
+  color: red;
+  position: relative;
+  nav-down: 20px;
+}
+
+#headerNavigation {
+  display: flex;
+  justify-content: end;
+}
+
+.img-content {
+  width: 10%;
+  height: 10%;
+}
+
+.headerNavigation .logo {
+  background-image: url(Asset/Logo.png);
+  width: 10%;
+  height: 10%;
+}
+
+nav img {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}

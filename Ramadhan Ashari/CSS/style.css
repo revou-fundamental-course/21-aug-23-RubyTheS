@@ -1,0 +1,112 @@
+
+
+@media only screen and (max-width: 512px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+body{
+  margin: 0;
+  font: normal 300 .8em'Roboto', sans-serif;
+  overflow-x: hidden;
+  background-image: url(asset/bannerBanteng.jpg);
+
+}
+
+.nav{
+  justify-content: space-between;
+  padding-bottom: 0px ;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.navbar {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  color: black;
+  padding:50%;
+  overflow: hidden;
+  background-color: #ffffff;    
+  height: 50px; 
+  align-items: center;
+  border-bottom: 2px solid #000000;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+}
+ul {
+  position: relative;
+  right: 8px;
+  top: 10px;
+  overflow: hidden;
+  float: right;
+  padding:14px 15px;
+}
+ul li {
+  display:inline-block;
+  padding:0 7px;
+  position:relative;
+}
+
+ul li:not(:last-child)::after{
+  content:""; 
+  border:1px solid #000000;
+  border-width: 1px 1px 0 0;
+  position:absolute; 
+  right:-3px; 
+  top:0; 
+  height:100%;
+}
+
+
+ul li a {color: black; 
+  padding: 0 10px; 
+  text-decoration: none;
+}
+ul li a:hover {
+    color: black;
+    background-color: lightgray;
+}
+
+.banner h1 {
+  color: red;
+  position: relative;
+  nav-down: 20px;
+}
+
+.headerNavigation {
+  position: relative;
+  top: 8px;
+  right: 16px;
+}
+
+.banner .img-content {
+  width: 50%;
+  height: 50%;
+}
+
+.nav .Logo {
+  display:flex;
+  justify-content: space-between;
+  flex-direction:row;
+  padding: 10px;
+  position: relative;
+  top: 8px;
+  left: 1px;
+  width: 100px;
+  height: 100px;
+}
+
+.welcome {
+  padding-top: 5%;
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+  justify-content: left;
+}
+
+.welcome > a{
+  font-size: small;
+}
